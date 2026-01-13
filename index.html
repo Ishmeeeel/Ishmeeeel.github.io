@@ -3,45 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ismail Usman | Portfolio</title>
+    <title>Ismail Usman | AI & Cloud Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="bg-gray-50 text-gray-900 font-sans">
-    <header class="bg-blue-900 text-white p-8 text-center">
-        <h1 class="text-4xl font-bold">Ismail Usman</h1>
-        <p class="text-xl mt-2">Mathematics Graduate | Cloud & ML Engineer</p>
-        <div class="mt-4">
-            <span class="bg-blue-700 px-3 py-1 rounded-full text-sm">Azure (AZ-104)</span>
-            <span class="bg-blue-700 px-3 py-1 rounded-full text-sm ml-2">Python</span>
-            <span class="bg-blue-700 px-3 py-1 rounded-full text-sm ml-2">Kubernetes</span>
+<body class="bg-[#0f172a] text-slate-300 font-sans selection:bg-blue-500/30">
+
+    <nav class="fixed w-full z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-white font-bold tracking-tighter text-xl">ISMAIL<span class="text-blue-500">.</span>USMAN</span>
+            <div class="space-x-8 text-sm font-medium uppercase tracking-widest">
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+                <a href="mailto:uthmanismail7@gmail.com" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-500 transition">Hire Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-16 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-blue-500 font-mono mb-4">Hello, my name is</h2>
+            <h1 class="text-5xl md:text-7xl font-bold text-slate-100 mb-6">Ismail Usman.</h1>
+            <h3 class="text-3xl md:text-5xl font-bold text-slate-400 mb-8 leading-tight">I build scalable AI solutions and cloud infrastructure.</h3>
+            <p class="max-w-xl text-lg leading-relaxed mb-10">
+                Mathematics graduate (Top 5%) specializing in <span class="text-blue-400">Machine Learning</span> and <span class="text-blue-400">Azure Cloud</span>. I bridge the gap between complex mathematical theory and production-ready software.
+            </p>
+            <div class="flex gap-4">
+                <a href="#projects" class="border border-blue-500 text-blue-500 px-6 py-3 rounded hover:bg-blue-500/10 transition">View My Work</a>
+                <a href="https://github.com/yourusername" target="_blank" class="text-2xl hover:text-white transition"><i class="fab fa-github"></i></a>
+            </div>
         </div>
     </header>
 
-    <main class="max-w-4xl mx-auto p-6">
-        <section class="mb-12">
-            <h2 class="text-2xl font-bold border-b-2 border-blue-900 mb-4">About Me</h2>
-            <p>Mathematics graduate (Top 5% at ABU Zaria) specializing in the intersection of statistical modeling and cloud infrastructure. Currently focused on Deep Learning and LLM architectures.</p>
-        </section>
+    <section id="projects" class="py-20 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold text-slate-100 mb-12 flex items-center">
+                <span class="text-blue-500 font-mono text-xl mr-2">01.</span> Featured Projects
+                <div class="h-[1px] bg-slate-800 flex-grow ml-6"></div>
+            </h2>
 
-        <section class="mb-12">
-            <h2 class="text-2xl font-bold border-b-2 border-blue-900 mb-4">Projects</h2>
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-white p-4 shadow rounded border-t-4 border-blue-500">
-                    <h3 class="font-bold text-lg">ML Classification (Python)</h3>
-                    <p class="text-sm text-gray-600">Built and optimized classification models using Scikit-learn and Pandas.</p>
-                </div>
-                <div class="bg-white p-4 shadow rounded border-t-4 border-blue-500">
-                    <h3 class="font-bold text-lg">Azure Cloud Deployment</h3>
-                    <p class="text-sm text-gray-600">Deployed scalable infrastructure using Azure and Kubernetes.</p>
-                </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <a href="https://github.com/yourusername/ml-classification" target="_blank" class="group relative bg-[#112240] p-8 rounded-xl border border-transparent hover:border-blue-500/50 hover:-translate-y-2 transition-all duration-300">
+                    <div class="flex justify-between items-start mb-6">
+                        <i class="far fa-folder text-4xl text-blue-500"></i>
+                        <i class="fas fa-external-link-alt group-hover:text-blue-400 transition"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-100 mb-4 group-hover:text-blue-400">ML Classification Engine</h3>
+                    <p class="text-sm leading-relaxed mb-6 italic">Developed and optimized classification models using Python & Scikit-learn for high-accuracy data analysis.</p>
+                    <div class="flex flex-wrap gap-3 font-mono text-xs">
+                        <span>Python</span> <span>Scikit-learn</span> <span>Pandas</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/yourusername/azure-k8s" target="_blank" class="group relative bg-[#112240] p-8 rounded-xl border border-transparent hover:border-blue-500/50 hover:-translate-y-2 transition-all duration-300">
+                    <div class="flex justify-between items-start mb-6">
+                        <i class="fas fa-cloud text-4xl text-blue-500"></i>
+                        <i class="fas fa-external-link-alt group-hover:text-blue-400 transition"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-100 mb-4 group-hover:text-blue-400">Azure K8s Infrastructure</h3>
+                    <p class="text-sm leading-relaxed mb-6 italic">Automated deployment of containerized apps using Azure (AZ-104) and Kubernetes clusters.</p>
+                    <div class="flex flex-wrap gap-3 font-mono text-xs">
+                        <span>Azure</span> <span>Kubernetes</span> <span>Docker</span>
+                    </div>
+                </a>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section>
-            <h2 class="text-2xl font-bold border-b-2 border-blue-900 mb-4">Contact</h2>
-            <p>Email: uthmanismail7@gmail.com</p>
-            <p>Location: Nasarawa, Nigeria</p>
-        </section>
-    </main>
+    <footer class="py-10 text-center border-t border-slate-800">
+        <p class="font-mono text-xs tracking-widest uppercase">Built by Ismail Usman &copy; 2026</p>
+    </footer>
+
 </body>
 </html>
